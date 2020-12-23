@@ -4,9 +4,6 @@
     "composite": true,
     "rootDir": "../",
     "baseUrl": ".",
-    "paths": {
-      "@MyApp/ui/*": ["../ui/src/*"]
-    }
   },
   "include": ["../"]
 }
