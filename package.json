@@ -1,0 +1,22 @@
+{
+  "name": "MyApp",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "app": "yarn workspace @MyApp/app",
+    "test": "jest",
+    "lint": "eslint --fix --ext .js,jsx,.ts,.tsx ."
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "typescript": "^4.1.3"
+  }
+}
