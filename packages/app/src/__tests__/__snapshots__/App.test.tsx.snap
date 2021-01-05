@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  testID="safe-area-view"
+>
+  <Text>
+    It's working
+  </Text>
+</RCTSafeAreaView>
+`;

@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
+      <SafeAreaView testID="safe-area-view">
         <Text>It's working</Text>
       </SafeAreaView>
     </>
