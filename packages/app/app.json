@@ -1,12 +1,16 @@
 {
-  "name": "MyApp",
-  "displayName": "MyApp",
+
   "expo": {
+    "name": "MyApp",
+    "slug": "MyApp",
+    "owner": "z1app",
+    "privacy": "unlisted",
     "android": {
       "package": "com.myapp"
     },
     "ios": {
       "bundleIdentifier": "org.reactjs.native.example.MyApp"
-    }
+    },
+
   }
 }
