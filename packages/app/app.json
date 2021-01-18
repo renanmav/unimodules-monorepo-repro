@@ -1,5 +1,4 @@
 {
-
   "expo": {
     "name": "MyApp",
     "slug": "MyApp",
@@ -9,8 +8,7 @@
       "package": "com.myapp"
     },
     "ios": {
-      "bundleIdentifier": "org.reactjs.native.example.MyApp"
-    },
-
+      "bundleIdentifier": "app.z1.MyApp"
+    }
   }
 }
