@@ -1,4 +1,12 @@
 {
   "name": "MyApp",
-  "displayName": "MyApp"
+  "displayName": "MyApp",
+  "expo": {
+    "android": {
+      "package": "com.myapp"
+    },
+    "ios": {
+      "bundleIdentifier": "org.reactjs.native.example.MyApp"
+    }
+  }
 }
